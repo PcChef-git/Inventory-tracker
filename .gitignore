@@ -1,0 +1,35 @@
+# Bytecode / caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# Editor files
+.vscode/
+*.swp
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs, backups, or temp files
+*.log
+*.bak
+*.tmp
+
+# Test results or coverage
+.coverage
+htmlcov/
+pytest_cache/
+
+# User-generated data
+data/raw_invoices/
+data/exports/
+data/snapshots/
+
+# Personal notes or IDE settings
+*.code-workspace
