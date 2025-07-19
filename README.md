@@ -1,6 +1,6 @@
-#''' This project is an Inventory Tracker written in Python.
+ ''' This project is an Inventory Tracker written in Python.
      It will have tailored programming to fit the needs of a
-     particular restuarant.
+     particular restuarant.'''
 
      Purpose:
      -Reads Scanned Invoices

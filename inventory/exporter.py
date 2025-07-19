@@ -1,3 +1,5 @@
+# inventory/exporter.py
+
 import csv
 from inventory.models import InventoryItem
 from pathlib import Path

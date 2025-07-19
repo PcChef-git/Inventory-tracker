@@ -1,3 +1,5 @@
+# inventory/processor.py
+
 from inventory.models import InventoryItem
 # Here we are going to add a simple "par level" check
 
@@ -9,12 +11,13 @@ PAR_LEVELS = {
     "Tomatoes": 5.0
 }
 
-def check_below_par(items: list[InventoryItem]) -> list[InventoryItem]:
-    low_stock = []
-    
-    for item in items:
-        par = PAR_LEVELS.get(item.name, None)
-        if par is not None and item.quantity < par:
-            low_stock.append(item)
-            
-    return low_stock
+#Par Check Function moved to db.py keeping this code for reference
+
+#def check_below_par(items: list[InventoryItem]) -> list[InventoryItem]:
+#    low_stock = []   
+#    for item in items:
+#        par = PAR_LEVELS.get(item.name, None)
+#        if par is not None and item.quantity < par:
+#            low_stock.append(item)
+#            
+#    return low_stock
